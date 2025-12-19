@@ -1,0 +1,31 @@
+================================================================================
+PLID Research - Data Imputation and Modeling Results
+================================================================================
+
+DATA SUMMARY:
+Final modeling dataset: 60 samples
+Features: 19 (all numeric after encoding)
+Train/Test Split: 48 / 12
+
+REGRESSION MODELS:
+1. Post operative ODI
+   R² Score: -0.0007
+   MAE: 12.6376
+   RMSE: 14.0001
+
+2. Post operative NRS Back Pain
+   R² Score: -0.6933
+   MAE: 1.6983
+   RMSE: 1.9398
+
+3. Post operative NRS Leg Pain
+   R² Score: -0.3873
+   MAE: 1.7375
+   RMSE: 2.0019
+
+CLASSIFICATION MODEL:
+4. Surgery Outcome (Macnab Criteria)
+   Accuracy: 0.7500
+   Precision (weighted): 0.5625
+   Recall (weighted): 0.7500
+   F1-Score (weighted): 0.6429
